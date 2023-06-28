@@ -12,7 +12,7 @@ module.exports = {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
 
-      Colors: {
+      colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
@@ -20,6 +20,10 @@ module.exports = {
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
+      },
+      backgroundImage: {
+        circularLight:
+          "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#ffffff 5px,#ffffff 100px);",
       },
     },
   },
