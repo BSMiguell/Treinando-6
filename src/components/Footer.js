@@ -16,7 +16,7 @@ const Footer = () => {
             className="underline underline-offset-2
 "
           >
-            CodeBucks
+            BSM
           </Link>
         </div>
         <Link href="/">Say hello</Link>
