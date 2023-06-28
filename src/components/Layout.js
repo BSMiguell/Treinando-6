@@ -4,7 +4,7 @@ import Head from "next/head";
 const Layout = ({ children, className = "" }) => {
   return (
     <div
-      className={`w-full h-full inline-block z-0 bg-white p-32 ${className}`}
+      className={`w-full h-full inline-block z-0 bg-light p-32 ${className}`}
     >
       {children}
     </div>
