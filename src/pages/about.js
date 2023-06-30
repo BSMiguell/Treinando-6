@@ -37,17 +37,17 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | About Page</title>
+        <title>BSM | About Page</title>
         <meta name="description" content="any description" />
       </Head>
 
-      <main className="flex w-full flex-col items-center justify-cente">
+      <main className="flex w-full flex-col items-center justify-cente dark:text-light">
         <Layout className="pt-2">
-          <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
+          <AnimatedText text="Passion Fuels Purpose!" />
 
-          <div className="grid w-full grid-cols-8 gap-16">
+          <div className="grid w-full grid-cols-8 gap-16 mt-20">
             <div className="col-span-3 flex flex-col items-start justify-start">
-              <h2 className="mb-4 text-3xl font-bold uppercase text-dark/75">
+              <h2 className="mb-4 text-3xl font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
 
@@ -74,11 +74,11 @@ const about = () => {
               </p>
             </div>
 
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark"></div>
+            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light">
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light"></div>
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt="BSM"
                 className="w-full h-auto rounded-2xl"
               />
             </div>
@@ -88,7 +88,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={50} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   satisfied clients
                 </h2>
               </div>
@@ -97,7 +97,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={40} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   projects completed
                 </h2>
               </div>
@@ -106,7 +106,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={4} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   years of experience
                 </h2>
               </div>
