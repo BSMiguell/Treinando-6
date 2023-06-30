@@ -70,7 +70,7 @@ const NavBar = () => {
           href="#"
           target={"_blank"}
           whileHover={{ y: -2 }}
-          className="w-6 mx-3"
+          className="w-6 mx-3 "
         >
           <LinkedInIcon />
         </motion.a>
@@ -79,7 +79,7 @@ const NavBar = () => {
           href="#"
           target={"_blank"}
           whileHover={{ y: -2 }}
-          className="w-6 mx-3"
+          className="w-6 mx-3 bg-light rounded-full"
         >
           <PinterestIcon />
         </motion.a>
