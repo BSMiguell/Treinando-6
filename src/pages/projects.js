@@ -152,6 +152,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
+
             <div className="col-span-6">
               <Project
                 title="Crypto Screener Application"
@@ -174,6 +175,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
+
             <div className="col-span-6">
               <Project
                 title="Crypto Screener Application"
@@ -184,6 +186,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
+
             <div className="col-span-6">
               <Project
                 title="Crypto Screener Application"
